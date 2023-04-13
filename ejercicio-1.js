@@ -12,8 +12,7 @@ console.log(hola)
 var hola="Hola mundo! x2"
 console.log(hola)
 
-var hola = "hola 3"
-console.log(hola)
-
-var hola = "hola 4"
-console.log(hola)
+var nombre ="Hector"
+var edad = 20
+console.log(nombre)
+console.log(edad)
