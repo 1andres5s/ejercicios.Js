@@ -14,3 +14,6 @@ console.log(hola)
 
 var hola = "hola 3"
 console.log(hola)
+
+var hola = "hola 4"
+console.log(hola)
