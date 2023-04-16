@@ -25,3 +25,28 @@ if(num1 > num2 && num1 > num3) {
     }
     
 }
+
+let espar = 3
+
+
+if (espar %2 == 0){
+    console.log(espar + " es par")
+}else{
+    console.log(espar + " es impar")
+}
+
+
+for (let i =10; i>=1; i--){
+    console.log(i)
+    if (i%2 ==0){
+        console.log(i)
+    }
+}
+
+
+
+for (let i,suma = 0; i <=5; i++){
+    suma +=i;
+    console.log(suma)
+    
+}
