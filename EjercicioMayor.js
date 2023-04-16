@@ -44,9 +44,18 @@ for (let i =10; i>=1; i--){
 }
 
 
-
-for (let i,suma = 0; i <=5; i++){
+let suma = 0
+for (let i = 1; i <=5; i++){
     suma +=i;
-    console.log(suma)
     
 }
+console.log(suma)
+
+let cont = 0;
+let tabla = 7;
+
+while (cont <=10){
+    console.log(tabla + " * " + cont + " = " + (tabla*cont))
+    cont++
+}
+
