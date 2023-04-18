@@ -1,4 +1,3 @@
-import fo from 'fo';
 let nombres = ["pepe", "pepito", "pepote"]
 
 const recorrer = function(arr){
