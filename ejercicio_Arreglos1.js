@@ -53,3 +53,15 @@ console.log("-----------------For Of---------------------")
 for (const item of numeros) {
     console.log(`El for of va por el ${item}`)
 }
+
+
+// ejercicio
+
+let peliculas =["La milla verde","Parásitos","El viaje de Chihiro","Coco","Interstellar"]
+
+for (let i = 0; i < peliculas.length; i++){
+    console.log(`la pelicula #${i+1}: ${peliculas[i]}`)
+}
+
+peliculas.forEach((peli,index) => console.log(`la pelicula #${index+1}: ${peli}`))
+
